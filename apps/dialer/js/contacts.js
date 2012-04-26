@@ -397,6 +397,7 @@ var ContactDetails = {
 
       var req = navigator.mozContacts.save(contact);
       req.onsuccess = (function() {
+        this._contact.updated = new Date();
         this.render();
         this.endEditing();
         Contacts.reload();
