@@ -117,9 +117,8 @@ const IMERender = (function() {
         if (overrides && overrides[keyChar]) {
           keyChar = overrides[keyChar];
           code = keyChar.charCodeAt(0);
-
         } else {
-          code = key.keyCode || keyChar.charCodeAt(0);
+          code = key.keyCode || key.charCode || keyChar.charCodeAt(0);
         }
 
         var className = isSpecialKey(key) ? 'special-key' : '';

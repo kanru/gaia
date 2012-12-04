@@ -511,6 +511,40 @@ const Keyboards = {
       ]
     ]
   },
+  'zh-Hant-Chewing': {
+    label: 'Chinese - Traditional - Chewing',
+    menuLabel: '新酷音輸入',
+    needsCandidatePanel: true,
+    imEngine: 'jschewing',
+    width: 11,
+    textLayoutOverwrite: {
+      ',': '，',
+      '.': '。'
+    },
+    keys: [
+      [
+        { value: 'ㄅ', charCode: 49 },{ value: 'ㄉ', charCode: 50, },{ value: 'ˇ', charCode: 51 },{ value: 'ˋ', charCode: 52 },
+        { value: 'ㄓ', charCode: 53 },{ value: 'ˊ', charCode: 54 },{ value: '˙', charCode: 55 },{ value: 'ㄚ', charCode: 56 },
+        { value: 'ㄞ', charCode: 57 },{ value: 'ㄢ', charCode: 48 },{ value: 'ㄦ', charCode: 45}
+      ], [
+        { value: 'ㄆ', charCode: 113 },{ value: 'ㄊ', charCode: 119 },{ value: 'ㄍ', charCode: 101 },{ value: 'ㄐ', charCode: 114 },
+        { value: 'ㄔ', charCode: 116 },{ value: 'ㄗ', charCode: 121 },{ value: 'ㄧ', charCode: 117 },{ value: 'ㄛ', charCode: 105 },
+        { value: 'ㄟ', charCode: 111 },{ value: 'ㄣ', charCode: 112 },{ value: '？' }
+      ], [
+        { value: 'ㄇ', charCode: 97 },{ value: 'ㄋ', charCode: 115 },{ value: 'ㄎ', charCode: 100 },{ value: 'ㄑ', charCode: 102 },
+        { value: 'ㄕ', charCode: 103 },{ value: 'ㄘ', charCode: 104 },{ value: 'ㄨ', charCode: 106 },{ value: 'ㄜ', charCode: 107 },
+        { value: 'ㄠ', charCode: 108 },{ value: 'ㄤ', charCode: 59 },{ value: '…', charCode: 92 }
+      ], [
+        { value: 'ㄈ', charCode: 122 },{ value: 'ㄌ', charCode: 120 },{ value: 'ㄏ', charCode: 99 },{ value: 'ㄒ', charCode: 118 },
+        { value: 'ㄖ', charCode: 98 },{ value: 'ㄙ', charCode: 110 },{ value: 'ㄩ', charCode: 109 },{ value: 'ㄝ', charCode: 44 },
+        { value: 'ㄡ', charCode: 46 },{ value: 'ㄥ', charCode: 47 },
+        { value: '⌫', keyCode: KeyEvent.DOM_VK_BACK_SPACE }
+      ], [
+        { value: '&nbsp', ratio: 9, charCode: 32 },
+        { value: '↵', ratio: 2, keyCode: KeyEvent.DOM_VK_RETURN }
+      ]
+    ]
+  },
   'zh-Hans-Pinyin': {
     label: 'Chinese - Simplified & Traditional - Pinyin',
     menuLabel: '拼音输入',

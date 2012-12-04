@@ -195,7 +195,7 @@ const keyboardGroups = {
   'otherlatins': ['cz', 'fr', 'de', 'nb', 'sk', 'tr', 'es', 'pt_BR'],
   'cyrillic': ['ru', 'sr-Cyrl'],
   'hebrew': ['he'],
-  'zhuyin': ['zh-Hant-Zhuyin'],
+  'zhuyin': ['zh-Hant-Chewing'],
   'pinyin': ['zh-Hans-Pinyin'],
   'arabic': ['ar'],
   'greek': ['el'],
